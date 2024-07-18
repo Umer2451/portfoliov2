@@ -38,6 +38,34 @@ h1 {
   font-size: 120px;
   margin: 0;
 }
+h2 {
+  color: var(--h1color);
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 90px;
+  margin: 0;
+}
+h3 {
+  color: var(--h1color);
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  margin: 0;
+}
+h4 {
+  color: var(--h1color);
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 0;
+}
+h5 {
+  color: var(--h1color);
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+}
 
 p {
   color: var(--color);

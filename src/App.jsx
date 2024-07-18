@@ -6,6 +6,7 @@ import "./App.css";
 import Heading from "./headings";
 import ThemeToggle from "./themetoggle";
 import AboutMeCard from './AboutCard';
+import Roadmap from './Roadmap';
 function App() {
 
   return (
@@ -34,6 +35,7 @@ function App() {
       </div>
       <ThemeToggle />
       <AboutMeCard />
+      <Roadmap />
     </>
   );
 }
