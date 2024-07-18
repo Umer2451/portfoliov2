@@ -1,0 +1,48 @@
+.myheading{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 70px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.container {
+  width: 200px;
+  height: 200px;
+  perspective: 500px;
+  margin: 100px;
+}
+:root {
+  --background-color: black;
+  --color: white;
+  --h1color: white;
+  --face-background: white;
+  --face-border: rgba(255, 255, 255, 0.1);
+  --face-text-color: white;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--color);
+}
+
+h1 {
+  color: var(--h1color);
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 120px;
+  margin: 0;
+}
+
+p {
+  color: var(--color);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200; 
+  font-size: 50px;
+  margin: 0;
+}

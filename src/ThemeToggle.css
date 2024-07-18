@@ -1,0 +1,65 @@
+.theme-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999; /* Ensure it's on top of everything */
+    background-color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .theme-toggle .theme-icon {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+  }
+  
+  .theme-toggle .sun {
+    background-image: url('/src/assets/sun.svg'); /* Replace with your sun icon path */
+  }
+  
+  .theme-toggle .moon {
+    background-image: url('/src/assets/moon.svg'); /* Replace with your moon icon path */
+  }
+  
+  /* :root {
+    --background-color: black; /* Default dark theme background color */
+    /* --color: white; /* Default text color */
+    /* --h1color: white; Default h1 color */
+/* } */
+  
+  /* body {
+    background-color: var(--background-color);
+  } */ 
+  
+  .light-theme {
+    --background-color: #C4E5D3;
+    --color: black; /* Adjust text color for light theme */
+    --h1color: black; /* Adjust h1 color for light theme */
+  }
+  
+  h1 {
+    color: var(--h1color);
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+    margin: 0;
+  }
+  
+  p {
+    color: var(--color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 50px;
+    margin: 0;
+  }
+  
