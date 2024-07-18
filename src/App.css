@@ -18,9 +18,9 @@
   margin: 100px;
 }
 :root {
-  --background-color: black;
-  --color: white;
-  --h1color: white;
+  --background-color: #C4E5D3;
+  --color: black; /* Adjust text color for light theme */
+  --h1color: black; /* Adjust h1 color for light theme */
   --face-background: white;
   --face-border: rgba(255, 255, 255, 0.1);
   --face-text-color: white;
@@ -39,28 +39,28 @@ h1 {
   margin: 0;
 }
 h2 {
-  color: var(--h1color);
+  color: var(--h2color);
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: 90px;
   margin: 0;
 }
 h3 {
-  color: var(--h1color);
+  color: var(--h3color);
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: 60px;
   margin: 0;
 }
 h4 {
-  color: var(--h1color);
+  color: var(--h4color);
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: 30px;
   margin: 0;
 }
 h5 {
-  color: var(--h1color);
+  color: var(--h5color);
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: 20px;

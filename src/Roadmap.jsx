@@ -61,10 +61,10 @@ const Roadmap = () => {
         {experiences.map((exp, index) => (
           <div key={index} className="timeline-item">
             <div className="timeline-item-content">
-              <h3>{exp.year}</h3>
-              <h4>{exp.company}</h4>
-              <h5>{exp.role}</h5>
-              <p style={{ fontSize: "1.1rem" }}>{exp.description}</p>
+              <h3 style={{color: "black"}}>{exp.year}</h3>
+              <h4 style={{color: "black"}}> {exp.company}</h4>
+              <h5 style={{color: "black"}}>{exp.role}</h5>
+              <p style={{ fontSize: "1.1rem", color: "black"}}>{exp.description}</p>
             </div>
           </div>
         ))}
