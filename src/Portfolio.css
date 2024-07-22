@@ -1,64 +1,56 @@
 .portfolio {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: var(--background-color);
-    color: var(--color);
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
   }
   
-  .portfolio h2 {
-    font-size: 2.5rem;
+  .portfolio-heading {
+    font-size: 2rem;
     margin-bottom: 20px;
+    text-align: center;
+    color: #333;
   }
   
   .projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
     gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
   
   .project-card {
-    background: var(--face-background);
-    border: 2px solid var(--face-border);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
+    background-color: #fff;
     padding: 20px;
-    width: 300px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  .project-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  }
-  
-  .project-card h3 {
-    margin-top: 0;
+  .project-title {
     font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
   }
   
-  .project-card p {
+  .project-description {
     font-size: 1rem;
-    color: var(--face-text-color);
+    color: #666;
+    margin-bottom: 15px;
   }
   
-  .project-card button {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 20px;
-    background-color: blue;
-    color: white;
+  .project-link {
+    display: block;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
     text-decoration: none;
-    border-radius: 60px;
     transition: background-color 0.3s ease;
-    font-family: "Poppins";
-    font-weight: 600;
   }
   
-  .project-card button:hover {
-    background-color: orange;
-    color: var(--color);
-    font-family: "Poppins";
-    font-weight: 600;
+  .project-link:hover {
+    background-color: #0056b3;
   }
   

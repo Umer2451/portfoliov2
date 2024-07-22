@@ -22,14 +22,19 @@ const projects = [
 const Portfolio = () => {
   return (
     <div className="portfolio">
-      <h2>My Portfolio</h2>
+      <h2 className="portfolio-heading">My Portfolio</h2>
       <div className="projects">
         {projects.map((project, index) => (
           <div className="project-card" key={index}>
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
-              <button>View Project</button>
+            <h3 className="project-title">{project.title}</h3>
+            <p className="project-description">{project.description}</p>
+            <a
+              href={project.link}
+              className="project-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project
             </a>
           </div>
         ))}
